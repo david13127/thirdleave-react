@@ -7,7 +7,7 @@ module.exports = {
         port: 3000,
         hot: true,
         historyApiFallback: true,
-        compress: true,
+        compress: true
     },
     output: {
         filename: 'bundle.js',
@@ -36,13 +36,10 @@ module.exports = {
                 test: /\.(css|less)$/,
                 use: [
                     {
-                        loader: "style-loader",
+                        loader: "style-loader"
                     },
                     {
-                        loader: "css-loader",
-                        options: {
-                            importLoaders: 1,
-                        }
+                        loader: "css-loader"
                     },
                     {
                         loader: "less-loader"
