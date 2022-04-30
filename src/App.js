@@ -57,13 +57,15 @@ function App() {
         >
           <Descriptions size="small" column={3}>
             <Descriptions.Item label="Created">David Zhang</Descriptions.Item>
+            <Descriptions.Item label="Association"><a>zhanglong9313@qq.com</a></Descriptions.Item>
+          </Descriptions>
+          <Descriptions size="small" column={3}>
             <Descriptions.Item label="Beian">
               <span>©2022 三叶小窝&nbsp;</span>
               <span>
                 <a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备2022009133号-1</a>
               </span>
             </Descriptions.Item>
-            <Descriptions.Item label="Association"><a>zhanglong9313@qq.com</a></Descriptions.Item>
           </Descriptions>
         </PageHeader>
       </div>
